@@ -64,3 +64,30 @@ Step 3: Calculate Remaining Budget
     -If remaining_budget is negative, a warning is displayed indicating that the user has overspent.
 3.Expected Outcome:
     -The user sees the remaining balance, and a warning is issued if the budget has been exceeded.
+
+Step 5: Reset the Budget
+1.User Input:
+        -The user wants to clear all expenses and start fresh.
+2.System Action:
+        -The reset_expenses() method is called.
+        -The system sets spent = 0 and clears the expenses dictionary.
+3.Expected Outcome:
+        -All expenses are cleared, and the budget is reset to its initial value.
+
+Step 6: Load Expenses from a File
+1.User Input:
+        -The user wants to load previously saved expenses from a file (e.g., expenses.txt).
+2.System Action:
+        -The load_from_file() method is called with the filename.
+        -The system reads the file, retrieves the budget, total spent, and categorized expenses, and updates the program’s state accordingly.
+3.Expected Outcome:
+        -The budget, total spent, and categorized expenses are restored from the file.
+
+Step 7: Error Handling and Warnings
+1.Negative Expense Warning:
+        -If the user tries to add a negative expense, an error message is displayed, and the system prevents the operation.
+
+Future Plans:
+1.Database Integration: Add a database to store authorized QR codes, access logs, and user information, allowing for more dynamic access control management.
+2.Multi-Level Access Control: Implement different access levels (e.g., Admin, User, Guest) based on the QR code content, offering more granular control over permissions.
+3.Email/SMS Notifications: Send alerts when access is denied or granted to a predefined email or phone number.

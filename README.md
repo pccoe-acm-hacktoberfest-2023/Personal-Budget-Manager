@@ -1,5 +1,5 @@
 # Personal-Budget-Manager
-Key Features:
+Key Features:\n
 1.Expense Management:
     -You can add expenses to specific categories, ensuring the total amount spent is tracked.
     -It prevents negative expense values from being added.

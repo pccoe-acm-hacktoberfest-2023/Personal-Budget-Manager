@@ -1,6 +1,6 @@
-*Personal-Budget-Manager*
+***Personal-Budget-Manager***
 
-*Key Features*:
+***Key Features***:
 
 1.Expense Management: -You can add expenses to specific categories, ensuring the total amount spent is tracked. -It prevents negative expense values from being added.
 
@@ -10,9 +10,9 @@
 
 4.Resetting Expenses: -All expenses can be reset, clearing both the tracked spending and the category details.
 
-*Pre-requisites are needed:*
+***Pre-requisites are needed:***
 
-*Basic Python Knowledge*
+**Basic Python Knowledge**
 
         -Variables and Data Types: Understanding of Python's basic data types (integers, strings, lists, dictionaries, etc.). 
         
@@ -22,39 +22,39 @@
         
         -Classes and Objects: Understanding of object-oriented programming (OOP) to work with classes, methods, and attributes.
 
-*Python Setup* 
+**Python Setup** 
         -Python 3.x: Ensure Python 3.x is installed. You can download it from the official Python website. 
         
         -Text Editor or IDE: Use an editor like VS Code, PyCharm, Sublime Text, or even Python’s built
         
         -in IDLE to write and run the code.
 
-*File Handling in Python* 
+**File Handling in Python** 
         -Knowledge of reading from and writing to files (using open(), read(), write() methods). 
         
         -Understanding how to handle potential file errors (e.g., file not found) using exception handling.
 
-*Object-Oriented Programming (OOP)* 
+**Object-Oriented Programming (OOP)**
         -Classes and Objects: Know how to define classes, and instantiate objects (like BudgetManager). 
         
         -Methods: Be able to define and use methods inside a class. 
         
         -Attributes: Learn how to handle class-level and instance-level attributes.
 
-*Exception Handling* 
+**Exception Handling**
         -Ability to handle common errors like file not found (FileNotFoundError), invalid input (ValueError), and I/O errors (IOError).
 
-*Command-Line Execution (Optional)*
+**Command-Line Execution (Optional)**
 
         -Familiarity with running Python scripts from the command line or terminal.
 
-*Saving and Loading Data* 
+**Saving and Loading Data**
 
         -Basic knowledge of how to store and retrieve data, especially using file formats like plain text, CSV, or JSON, which is used in this code for storing expenses.
 
-*Work flow: Step 1:*
+***Work flow:***
 
-*Initialize the Budget*
+**Step 1:Initialize the Budget**
 
         1.User Input: -The user defines an initial budget (e.g., $1000).
 
@@ -62,7 +62,7 @@
 
         3.Expected Outcome: -The budget is set, and the system is ready to track expenses.
 
-*Step 2: Add Expenses*
+**Step 2: Add Expenses**
 
         1.User Input: 
 
@@ -82,7 +82,7 @@
 
                 -The expense is categorized and added to the running total.
 
-*Step 3: Calculate Remaining Budget*
+**Step 3: Calculate Remaining Budget**
 
         1.User Input: 
 
@@ -99,7 +99,7 @@
         3.Expected Outcome: 
 
                 -The user sees the remaining balance, and a warning is issued if the budget has been exceeded.
-*Step 4: Save Expenses to a File*
+**Step 4: Save Expenses to a File**
         1.User Input:
         
                 -The user wants to save the current budget and expense data to a file for later use.
@@ -113,7 +113,7 @@
         
                 -The expenses are saved in a text file, allowing the user to load them in the future.
                 
-*Step 5: Reset the Budget*
+**Step 5: Reset the Budget**
 
         1.User Input: 
         
@@ -129,7 +129,7 @@
                 
                 -All expenses are cleared, and the budget is reset to its initial value.
 
-*Step 6: Load Expenses from a File*
+**Step 6: Load Expenses from a File**
 
         1.User Input: 
                 -The user wants to load previously saved expenses from a file (e.g., expenses.txt).
@@ -143,13 +143,13 @@
         3.Expected Outcome: 
                 -The budget, total spent, and categorized expenses are restored from the file.
 
-*Step 7: Error Handling and Warnings*
+**Step 7: Error Handling and Warnings**
 
         1.Negative Expense Warning: 
                 
                 -If the user tries to add a negative expense, an error message is displayed, and the system prevents the operation.
 
-*Future Plan for Budget Manager:*
+***Future Plan for Budget Manager:***
 
 1.Core Enhancements:
 
